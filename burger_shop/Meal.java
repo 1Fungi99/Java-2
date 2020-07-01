@@ -9,6 +9,9 @@ public class Meal {
     private String fries;
     private double friesPrice;
 
+    private String extraSide;
+    private double extraSidePrice;
+
     private static DecimalFormat df2 = new DecimalFormat("#.##");
 
     public Meal() {
@@ -29,16 +32,37 @@ public class Meal {
         this.friesPrice = friesPrice;
     }
 
+    public void setExtraSide(String extraSide, double extraSidePrice) {
+        this.extraSide = extraSide;
+        this.extraSidePrice = extraSidePrice;
+    }
+
     public void setBurger(Hamburger burger) {
         this.burger = burger;
     }
 
     public void totalMealPrice() {
         double mealPrice = burger.totalBurgerPrice();
+
         System.out.println("    Side: " + drink + ". Price: " + drinkPrice);
         System.out.println("    Side: " + fries + ". Price: " + friesPrice);
-        mealPrice += drinkPrice + friesPrice;
+        if (extraSide != null || extraSidePrice != 0) {
+            System.out.println("    Side: " + extraSide + ". Price: " + extraSidePrice);
+            mealPrice += drinkPrice + friesPrice + extraSidePrice;
+        } else {
+            mealPrice += drinkPrice + friesPrice;
+        }
         System.out.println("Total: $" + df2.format(mealPrice));
 
     }
 }
+
+/*
+NOTE: for the requirements below:
+- Prevent the Meal Class from allowing multiples of the SAME item from being added to it.
+- Prevent the Meal Class from allowing multiple Burgers
+- Prevent the Meal Class from allowing multiple Drinks
+- Limit the Meal Class to a maximum of 3 sides
+
+The meal class is mainly setters, there is no way of adding multiple of anything
+*/

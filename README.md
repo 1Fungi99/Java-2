@@ -10,7 +10,7 @@ For your reference, if you wanted to see the <em>original</em> instructions verb
 
 The bonus assignment for these exercises is simply to fully complete all of the requirements of every exercise. If they are all completed, you will be awarded with a 3 😄
 
-## **************************\*\*\*\***************************
+## ************\*\*************\*\*\*\*************\*\*************
 
 ## Exercise 1 :
 
@@ -44,7 +44,7 @@ The bonus assignment for these exercises is simply to fully complete all of the 
 - <h3>Side Class</h3>
   - should <strong><code>not</code></strong> inherit from the Burger Class
 
-## **************************\*\*\*\***************************
+## ************\*\*************\*\*\*\*************\*\*************
 
 ## Exercise 2 :
 
@@ -88,7 +88,7 @@ Create two new Class types,
 
 * Note that the above code snippet is provided to give you an idea of how the Order class could be instantiated and utilized. This is <strong>NOT</strong> the <strong>ONLY</strong> way to do it, but simply an idea for inspiration.
 
-## **************************\*\*\*\***************************
+## ************\*\*************\*\*\*\*************\*\*************
 
 ## Exercise 3 :
 
@@ -108,7 +108,7 @@ Building on Bills Burger Shop, add the following features to your code:
 - Prevent the properties in all of the classes from being modified directly Use the concepts of encapsulation to accomplish this task.
 - Add any additional exception handling, where you feel it is appropriate.
 
-## **************************\*\*\*\***************************
+## ************\*\*************\*\*\*\*************\*\*************
 
 ## Git Instructions
 
@@ -121,7 +121,7 @@ Building on Bills Burger Shop, add the following features to your code:
 - [ ] Push all of your commits: <code>git push origin `<firstName-lastName>`</code>.
 - [ ] When ready for your TA to review, open a Pull Request (PR) and add your TA as a collaborator.
 
-## **************\*\*\*\***************
+## ******\*\*******\*\*\*\*******\*\*******
 
 ## TEKsystems Academy Submission Instructions
 
